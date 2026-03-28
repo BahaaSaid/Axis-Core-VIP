@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is website about VIP Dashboard">
+    <meta name="author" content="this is resonsiple for Axis core">
+    <meta name="keywords" content="Code,Axis">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <title>Axis Core VIP</title>
+  <link rel="icon" href="img/image.png" type="image/png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>VIP Generator</h1>
+
+        <!-- form -->
+         <div class="form">
+         <input type="text" name="name" id="name" placeholder="Enter Name" required>
+         <input type="text" name="image" id="image" placeholder="Enter Image URL">
+
+         <select name="membership" id="membership">
+            <option value="Silver">Silver</option>
+            <option value="Gold">Gold</option>
+            <option value="Platinum">Platinum</option>
+         </select>
+         </div>
+
+         <button id="generateBtn">Generate</button>
+         <!--          <button class="copy-btn">Copy</button>
+ -->
+         <!-- CARD OUTPUT -->
+          <div id="cardContainer"></div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
